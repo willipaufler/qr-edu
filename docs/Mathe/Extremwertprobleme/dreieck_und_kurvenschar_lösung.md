@@ -42,9 +42,30 @@ $$
 Hinreichende Bedingung:
 $A''(0,5) = -12 \cdot 0,5 = -6 < 0 \implies$ **Maximum**.
 
-### 4. Endergebnis
+
+### 4. Randwertbetrachtung
+Um sicherzustellen, dass das lokale Maximum bei $a = 0,5$ auch das globale Maximum im Intervall $[\frac{1}{5}, \frac{4}{5}]$ (entspricht $[0,2; 0,8]$) ist, prüfen wir die Funktionswerte an den Grenzen:
+
+* **Linker Randwert ($a = 0,2$):**
+$$
+A(0,2) = 1,5 \cdot 0,2 - 2 \cdot (0,2)^3 = 0,3 - 0,016 = 0,284
+$$
+
+* **Lokales Maximum ($a = 0,5$):**
+$$
+A(0,5) = 0,5
+$$
+
+* **Rechter Randwert ($a = 0,8$):**
+$$
+A(0,8) = 1,5 \cdot 0,8 - 2 \cdot (0,8)^3 = 1,2 - 1,024 = 0,176
+$$
+
+Da $0,5 > 0,284$ und $0,5 > 0,176$, ist das globale Maximum im gegebenen Intervall tatsächlich bei $a = 0,5$.
+
+### 5. Endergebnis
 Der gesuchte Parameter ist **$a = 0,5$**.
 Die maximale Fläche beträgt:
 $$
-A(0,5) = 1,5 \cdot 0,5 - 2 \cdot (0,5)^3 = 0,75 - 0,25 = \mathbf{0,5}
+A(0,5) = 1,5 \cdot 0,5 - 2 \cdot (0,5)^3 = 0,75 - 0,25 = 0,5
 $$
