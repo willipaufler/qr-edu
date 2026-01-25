@@ -1,28 +1,37 @@
 # Kegel in Kugel - Lösung
 
-## Aufgabe a) Extremwertbestimmung ($R = 9$)
+### Aufgabe a) Extremwertbestimmung ($R = 9$)
 
 ### 1. Zielfunktion
+
 Nebenbedingung (Pythagoras): $r^2 = 9^2 - (h - 9)^2 = 18h - h^2$.
 Einsetzen in $V = \frac{1}{3}\pi r^2 h$:
-$$V(h) = \frac{\pi}{3}(18h^2 - h^3)$$
+$$
+V(h) = \frac{\pi}{3}(18h^2 - h^3)
+$$
 
 ### 2. Optimierung
-$$V'(h) = \frac{\pi}{3}(36h - 3h^2) = \pi(12h - h^2)$$
+$$
+V'(h) = \frac{\pi}{3}(36h - 3h^2) = \pi(12h - h^2)
+$$
 Setze $V'(h) = 0$:
-$$\pi h(12 - h) = 0 \implies h = 12\,\rm (da\ h > 0)$$
+$$
+\pi h(12 - h) = 0 \implies h = 12\,\rm (da\ h > 0)
+$$
 Prüfung: $V''(h) = \pi(12 - 2h) \Rightarrow V''(12) = -12\pi < 0$ (Maximum).
 
 ### 3. Ergebnisse
+
 * **Höhe:** $h = 12$
 * **Radius:** $r = \sqrt{18(12) - 12^2} = \sqrt{72} = 6\sqrt{2} \approx 8,49$
 * **Max. Volumen:** $V(12) = \frac{\pi}{3}(18 \cdot 12^2 - 12^3) = 288\pi \approx 904,78$
 
 ---
 
-## Aufgabe b) *Zusatz* Allgemeine Untersuchung
+### Aufgabe b) *Zusatz:* Allgemeine Untersuchung
 
 ### Allgemeines Maximum
+
 Zielfunktion mit Parameter $R$:
 $$r^2 = R^2 - (h - R)^2 = 2hR - h^2$$
 $$V(h) = \frac{\pi}{3}(2Rh^2 - h^3)$$

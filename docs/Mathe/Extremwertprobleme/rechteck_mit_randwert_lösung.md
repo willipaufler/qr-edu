@@ -16,6 +16,7 @@ $$
 21x^2 - 56x + 32 = 0
 $$
 Mit der Mitternachtsformel ergeben sich:
+
 * $x_1 = \frac{56 - \sqrt{56^2 - 4 \cdot 21 \cdot 32}}{2 \cdot 21} = \frac{56 - \sqrt{448}}{42} \approx 0,83$ (lokales Minimum)
 * $x_2 = \frac{56 + \sqrt{448}}{42} \approx 1,83$ (lokales Maximum)
 
@@ -35,16 +36,16 @@ $$
 
 * **Linker Rand ($x = 0$):**
 $$
-A(0) = (4 - 0) \cdot f(0) = 4 \cdot 2 = 8
+A(0) = (4 - 0) \cdot f(0) = 4 \cdot 2 = 8.
 $$
-
-, highlighting that A(0)=8 is the highest point]
 
 ### 4. Endergebnis
 Der Vergleich zeigt: $A(0) = 8$ ist größer als das lokale Maximum $A(1,83) \approx 7,51$.
 
 Die Fläche des Rechtecks wird also maximal, wenn der Punkt $Q$ auf der y-Achse liegt:
+
 * **Optimaler Punkt:** $Q(0 | 2)$
 * **Maximaler Flächeninhalt:** $A_{max} = 8$
 
-**Fazit:** Das "rechnerische" Maximum der Kurve ist hier nur ein relatives Maximum; das absolute Maximum liegt am Rand.
+**Fazit:** Das "rechnerische" Maximum der Kurve ist hier nur ein lokales Maximum; das globale Maximum liegt am Rand. Wird die Zielfunktion auf einem abgeschlossenen Intervall betrachtet, ist eine Randwertbetrachtung notwendig.
+#

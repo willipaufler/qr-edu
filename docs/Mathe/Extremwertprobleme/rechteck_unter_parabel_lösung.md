@@ -1,96 +1,66 @@
-# Rechtech unter Parabel - Lösung
+# Rechteck unter der Parabel - Lösung
 
-## Vorbereitung
+### a) Maximaler Umfang
+**1. Zielfunktion aufstellen:**
+$$
+U(x) = 2 \cdot (2x) + 2 \cdot (6 - x^2) = 4x + 12 - 2x^2 = -2x^2 + 4x + 12
+$$
 
-- Rechter oberer Eckpunkt: \( (x,\, 6 - x^2) \)
-- Breite des Rechtecks:
-  \[
-  b = 2x
-  \]
-- Höhe des Rechtecks:
-  \[
-  h = 6 - x^2
-  \]
-
----
-
-## a) Rechteck mit maximalem Umfang
-
-Der Umfang lautet:
-\[
-U = 2(b + h) = 2(2x + 6 - x^2)
-\]
-
-\[
-U(x) = -2x^2 + 4x + 12
-\]
-
-### Ableitung
-\[
+**2. Extremwert berechnen:**
+Wir bilden die erste Ableitung und setzen sie null:
+$$
 U'(x) = -4x + 4
-\]
+$$
+$$
+-4x + 4 = 0 \implies 4x = 4 \implies x = 1
+$$
 
-### Extremstelle
-\[
--4x + 4 = 0 \Rightarrow x = 1
-\]
+**3. Überprüfung (Art des Extremums):**
+$$
+U''(x) = -4
+$$
+Da $U''(1) = -4 < 0$ ist, liegt an der Stelle $x = 1$ ein lokales Maximum vor.
 
-### Abmessungen
-- Breite:  
-  \[
-  b = 2 \cdot 1 = 2
-  \]
-- Höhe:  
-  \[
-  h = 6 - 1^2 = 5
-  \]
-
-✅ **Rechteck mit maximalem Umfang:**  
-**Breite = 2**, **Höhe = 5**
+**4. Abmessungen berechnen:**
+* Breite: $b = 2x = 2 \cdot 1 = \mathbf{2}$
+* Höhe: $h = 6 - 1^2 = \mathbf{5}$
+* Maximaler Umfang: $U(1) = 2 \cdot 2 + 2 \cdot 5 = \mathbf{14}$
 
 ---
 
-## b) Rechteck mit maximalem Flächeninhalt
+### b) Maximaler Flächeninhalt
 
-Der Flächeninhalt lautet:
-\[
-A = b \cdot h = 2x(6 - x^2)
-\]
 
-\[
-A(x) = 12x - 2x^3
-\]
 
-### Ableitung
-\[
+**1. Zielfunktion aufstellen:**
+$$
+A(x) = (2x) \cdot (6 - x^2) = 12x - 2x^3
+$$
+
+**2. Extremwert berechnen:**
+Erste Ableitung null setzen:
+$$
 A'(x) = 12 - 6x^2
-\]
+$$
+$$
+12 - 6x^2 = 0 \implies 6x^2 = 12 \implies x^2 = 2 \implies x = \sqrt{2} \approx 1,41
+$$
 
-### Extremstelle
-\[
-12 - 6x^2 = 0 \Rightarrow x^2 = 2 \Rightarrow x = \sqrt{2}
-\]
+**3. Überprüfung (Art des Extremums):**
+$$
+A''(x) = -12x
+$$
+$$
+A''(\sqrt{2}) = -12\sqrt{2} < 0 \implies \text{lokales Maximum}
+$$
 
-### Abmessungen
-- Breite:
-  \[
-  b = 2\sqrt{2}
-  \]
-- Höhe:
-  \[
-  h = 6 - 2 = 4
-  \]
+**4. Abmessungen berechnen:**
+* Breite: $b = 2 \cdot \sqrt{2} = \mathbf{2\sqrt{2}} \approx \mathbf{2,83}$
+* Höhe: $h = 6 - (\sqrt{2})^2 = 6 - 2 = \mathbf{4}$
+* Maximaler Flächeninhalt: $A(\sqrt{2}) = 2\sqrt{2} \cdot 4 = \mathbf{8\sqrt{2}} \approx \mathbf{11,31}$
 
-✅ **Rechteck mit maximalem Flächeninhalt:**  
-**Breite = \( 2\sqrt{2} \)**, **Höhe = 4**
-
----
-
-## Vergleich
-
-| Ziel | Breite | Höhe |
-|----|----|----|
-| Maximaler Umfang | 2 | 5 |
-| Maximaler Flächeninhalt | \( 2\sqrt{2} \) | 4 |
-
-👉 Die beiden Rechtecke sind **nicht identisch**.
+**5. Randwertbetrachtung:**
+An den Rändern des Intervalls $[0; \sqrt{6}]$ gilt:
+* $A(0) = 0$
+* $A(\sqrt{6}) = 0$
+Das berechnete Maximum bei $x = \sqrt{2}$ ist somit das absolute Maximum.
