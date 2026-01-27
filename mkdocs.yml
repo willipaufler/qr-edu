@@ -52,7 +52,9 @@ markdown_extensions:
   # Katex
   - pymdownx.arithmatex:
       generic: true
-
+  # Images
+  - md_in_html
+  - pymdownx.blocks.caption
 
 copyright: Copyright &copy; 2026  Dr. Willi Paufler
 
