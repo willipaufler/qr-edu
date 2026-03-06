@@ -4,8 +4,8 @@
 
 ### 1. Skizze und Nebenbedingung
 
-![Kegel in Kugel](/assets/images/kegel_in_kugel_light.png#only-light){width="60%"}
-![Kegel in Kugel](/assets/images/kegel_in_kugel_dark.png#only-dark){width="60%"}
+![Kegel in Kugel](../../../assets/images/kegel_in_kugel_light.png#only-light){width="60%"}
+![Kegel in Kugel](../../../assets/images/kegel_in_kugel_dark.png#only-dark){width="60%"}
 /// caption
 Achsenschnitt der Kugel mit Kegel.
 ///
