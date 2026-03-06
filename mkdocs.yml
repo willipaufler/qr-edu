@@ -1,5 +1,5 @@
 site_name: QR - Aufgaben
-site_url: https://sitename.example
+site_url: https://willipaufler.github.io/qr-edu
 theme:
   name: material
   font: false #Deaktiviert um Konflikt mit extra.css zu vermeiden
