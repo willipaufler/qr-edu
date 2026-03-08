@@ -17,5 +17,8 @@ Zur Übersichtlichkeit wurde die Integrationskonstante $C=0$ gesetzt.
 
 ### Kurze Erläuterungen:
 * **Aufgabe d):** $\sqrt{x^3} = x^{3/2}$. Aufgeleitet: $\frac{1}{3/2 + 1}x^{5/2} = \frac{2}{5}x^{5/2}$.
-* **Aufgabe f):** Hier wurde $F(x)$ abgeleitet ($f = F'$). Mit der Kettenregel: $2 \cdot (3x^2 + x)^1 \cdot (6x + 1)$. Zusammengefasst: $(12x + 2)(3x^2 + x)$.
-* **Aufgabe g):** Aufleiten mit linearer Substitution. Äußere Aufleitung $\frac{1}{5}(\dots)^5$, dann teilen durch die innere Ableitung $2$. Also $\frac{1}{5 \cdot 2} = \frac{1}{10}$.
+* **Aufgabe f):** Hier wurde $F(x)$ abgeleitet ($f = F'$).  
+Mit der Kettenregel: $2 \cdot (3x^2 + x)^1 \cdot (6x + 1)$.  
+Zusammengefasst: $(12x + 2)(3x^2 + x)$.
+* **Aufgabe g):** Aufleiten mit linearer Substitution.  
+Äußere Aufleitung $\frac{1}{5}(\dots)^5$, dann teilen durch die innere Ableitung $2$. Also $\frac{1}{5 \cdot 2} = \frac{1}{10}$.

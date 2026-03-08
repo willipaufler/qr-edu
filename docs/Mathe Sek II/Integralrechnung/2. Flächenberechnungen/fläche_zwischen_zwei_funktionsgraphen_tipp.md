@@ -14,7 +14,8 @@ Hier sind Hinweise, wie du die einzelnen Teilaufgaben dieser komplexen Analyse l
 
 ### Zu Teilaufgabe c)
 * **Ursprungsgerade:** Eine Ursprungsgerade hat die Form $y = mx$.
-* **Ansatz:** Die Fläche von der linken Schnittstelle ($x = -1$) bis zur neuen Schnittstelle mit der Geraden (abhängig von $m$) unter der Differenzfunktion muss genau der Hälfte des Ergebnisses aus a) entsprechen. Nutze hierfür dein CAS-Gerät.
+* **Ansatz:** Fertigen Sie zunächst eine aussagekräftige Skizze an. Die Gerade muss monoton wachsend sein, da die Fläche links von der y-Achse deutlich kleiner als rechts von der y-Achse ist. Die Ursprungsgerade teilt die Fläche nun in zwei Teile. Mathematisch lässt sich fordern, dass die Fläche zwischen $g$ und $f$ links von der y-Achse und die Fläche zwischen $g$ und der Ursprungsgeraden im Intervall von $0$ bis zur Schnittstelle der Ursprungsgeraden mit $g$ zusammen die halbe Fläche ergibt.
+
 
 ### Zu Teilaufgabe d)
 * **Streckungsfaktor:** Eine Verhundertfachung des Flächeninhalts bei gleicher Form entspricht einer **zentrischen Streckung**. 
