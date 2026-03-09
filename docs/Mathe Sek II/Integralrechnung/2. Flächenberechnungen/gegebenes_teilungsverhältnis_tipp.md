@@ -1,8 +1,6 @@
-# Flächenteilung mit gegebenem Verhältnis - Tipp
+# Gegebenes Teilungsverhältnis - Tipp
 
-Hier sind die wichtigsten Schritte, um diese Aufgabe erfolgreich zu lösen:
 
----
 
 ### Zu Teilaufgabe a)
 1. **Nullstellen finden:** Setze $f(x) = 0$. Klammere zuerst $x$ aus, um eine quadratische Gleichung zu erhalten, die du mit der p-q-Formel lösen kannst.

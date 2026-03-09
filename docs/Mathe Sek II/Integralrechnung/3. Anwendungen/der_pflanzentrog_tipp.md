@@ -14,4 +14,4 @@
 ### Zu Teilaufgabe c) & d)
 * **Zulauf:** Das Volumen des Wassers nach einer Zeit $t$ berechnet sich durch $V(t) = 15 \frac{\text{l}}{\text{min}} \cdot t$.
 * **Wasserstand:** Wenn das Wasser $h$ Dezimeter hoch steht, reicht es im Koordinatensystem von $y = -4$ bis $y = -4 + h$. 
-* Du musst also die Grenzen des Integrals so anpassen, dass nur der untere Teil der Parabel gefüllt ist. Um die x-Grenzen für eine bestimmte Höhe $y$ zu finden, löse $f(x) = y$ nach $x$ auf.
+* Du musst also die Grenzen des Integrals so anpassen, dass nur der untere Teil der Parabel gefüllt ist. Um die x-Grenzen für eine bestimmte Höhe $h$ zu finden, löse $f(x) = -4+h$ nach $x$ auf.

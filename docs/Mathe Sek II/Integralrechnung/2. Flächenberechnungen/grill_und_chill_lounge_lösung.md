@@ -1,27 +1,52 @@
 # Grill und Chill Lounge - Lösung
 
-### 1. Bestimmung der Funktion $f(x)$
-Aufgrund der Punktsymmetrie zum Zentrum des Intervalls $(3|3)$ und der Extrema an den Rändern ergibt sich nach Lösen des Gleichungssystems:
-$f(x) = -0,5x^3 + 4,5x^2 - 12x + 12$  *(Beispielwerte für den Verlauf)*
-*Tatsächliche Koeffizienten für knickfrei zwischen y=2 und y=4:*
-$f(x) = -0,25x^3 + 2,25x^2 - 4,5x + 3$ (für das Intervall $[2;4]$).
+### 1. Bestimmung der nördlichen Grenzfunktion $g(x)$
+Allgemeiner Ansatz: $g(x) = ax^3 + bx^2 + cx + d$
+Bedingungen für Trassierung:
 
-### 2. Teilaufgabe a) Nord-Süd-Linie
-1.  **Gesamtfläche des freien Gartens:**
-    $A = \int_{2}^{4} (-0,25x^3 + 2,25x^2 - 4,5x + 3) \, dx = 6 \text{ FE}$.
-2.  **Halbierung:**
-    Da die Funktion punktsymmetrisch zum Wendepunkt $W(3|3)$ ist, halbiert die senkrechte Gerade durch den Wendepunkt die Fläche exakt.
-    **Ergebnis:** Die Gerade ist **$x = 3$**.
+* $g(2)=2$ und $g(4)=4$ (versatzfrei)
+* $g'(2)=0$ und $g'(4)=0$ (knickfrei)
 
-### 3. Teilaufgabe b) Zaun durch Wendepunkt
-1.  **Wendepunkt:** $f''(x) = -1,5x + 4,5 = 0 \implies x_w = 3$. Punkt ist $W(3|3)$.
-2.  **Gerade:** Der Text impliziert eine Teilung des Gartens. Ein Zaun durch den Wendepunkt, der den Garten "gerecht" teilt, wäre in diesem symmetrischen Modell die Wendetangente oder eine spezifische Verbindung.
-    * Steigung im Wendepunkt: $f'(3) = -0,75(3)^2 + 4,5(3) - 4,5 = 2,25$.
-    * Tangente: $y = 1,5x - 1,5$.
-3.  **Südliches Ende:** Schnittpunkt der Gerade mit der x-Achse ($y=0$):
-    $0 = 1,5x - 1,5 \implies x = 1$.
-4.  **Abstand:** Peters südwestliches Grundstücksende liegt bei $x=4$ (Beginn seines Gartens).
-    Differenz: $4 - 1 = 3 \text{ LE}$.
-5.  **Reale Entfernung:** $3 \text{ LE} \cdot 10 \text{ m/LE} = 30 \text{ m}$.
+Daraus ergibt sich das System:
 
-**Ergebnis:** Der Abstand beträgt $30 \text{ m}$.
+I. $8a + 4b + 2c + d = 2$  
+II. $64a + 16b + 4c + d = 4$  
+III. $12a + 4b + c = 0$  
+IV. $48a + 8b + c = 0$
+
+Das Gleichungssystem lässt sich auch mithilfe des CAS lösen.
+
+**Lösung:** $a = -0,5$; $b = 4,5$; $c = -12$; $d = 12$  
+$\implies g(x) = -0,5x^3 + 4,5x^2 - 12x + 12$
+
+---
+
+### Teilaufgabe a) Die Nord-Süd-Teilung
+Gesucht ist $t$, sodass die Fläche halbiert wird:
+
+\begin{align*}
+\int_{2}^{t} g(x) \, dx &= \int_{t}^{4} g(x) \, dx \\
+\text{Liefert: } t_1 &\approx 3,199 \\
+t_2 &\approx 6,523 \text{ (entfällt, da außerhalb des Intervalls)}
+\end{align*}
+
+**Ergebnis:** Die Nord-Süd-Linie liegt bei **$x \approx 3,2$**.
+
+---
+
+### Teilaufgabe b) Zaun durch den Wendepunkt
+1. **Wendepunkt berechnen:** $g''(x) = -3x + 9 = 0 \implies x_w = 3$. $g(3) = 3$. Wendepunkt $W(3|3)$.
+2. **Lineare Funktion des Zauns:** $f(x) = mx + 3 - 3m$ (geht durch $W$).
+3. **Nullstelle des Zauns:** $f(x_0) = 0 \implies x_0 = 3 - \frac{3}{m}$.
+4. **Flächenansatz:**
+
+   $\int_{2}^{3} g(x) \, dx + \int_{3}^{3-\frac{3}{m}} f(x) \, dx = \frac{1}{2} \int_{2}^{4} g(x) \, dx$  
+   Dies liefert für die Steigung: **$m = -7,2$**.
+5. **Abstandsberechnung:**
+
+   * Nullstelle $x_0 = 3 - \frac{3}{-7,2} = \frac{41}{12} \approx 3,417$.
+   * Peters südwestliches Grundstücksende liegt bei $x=4$.
+   * Abstand $d = 4 - \frac{41}{12} = \frac{7}{12} \text{ LE}$.
+6. **Umrechnung:** $\frac{7}{12} \text{ LE} \cdot 10 \text{ m/LE} \approx 5,833 \text{ m}$.
+
+**Ergebnis:** Der Abstand zum südwestlichen Grundstücksende beträgt ca. **$5,83 \text{ m}$**.

@@ -6,21 +6,38 @@
 2. **Differenzfunktion:** $h(x) = g(x) - f(x) = -\frac{3}{4}x^2 + \frac{3}{4}x + \frac{3}{2}$.
 3. **Integral:** 
 
-$$A = \int_{-1}^{2} (-\frac{3}{4}x^2 + \frac{3}{4}x + \frac{3}{2}) \, dx = [-\frac{1}{4}x^3 + \frac{3}{8}x^2 + \frac{3}{2}x]_{-1}^{2}$$
-
-$$A = (-2 + 1,5 + 3) - (0,25 + 0,375 - 1,5) = 2,5 - (-0,875) = 3,375 = \frac{27}{8} FE$$
-.
+\begin{align*}
+A &= \int_{-1}^{2} (-\frac{3}{4}x^2 + \frac{3}{4}x + \frac{3}{2}) \, dx\\ 
+&= [-\frac{1}{4}x^3 + \frac{3}{8}x^2 + \frac{3}{2}x]_{-1}^{2}\\
+&= (-2 + 1,5 + 3) - (0,25 + 0,375 - 1,5)\\
+&= 2,5 - (-0,875) = 3,375 = \frac{27}{8} FE.
+\end{align*} 
 
 ---
 
 ### Teilaufgabe b) Teilungsverhältnis
-1. **Schnittpunkte:** $P_1(-1 | 0,5)$ und $P_2(2 | 2)$.
-2. **Gerade $s(x)$:** Steigung $m = \frac{2 - 0,5}{2 - (-1)} = \frac{1,5}{3} = 0,5$. Punktsteigungsform ergibt $s(x) = 0,5x + 1$.
-3. **Fläche unter der Parabel $g$ und über der Geraden $s$:**
-   $A_{oben} = \int_{-1}^{2} (g(x) - s(x)) \, dx$. Da beide Funktionen (Parabel $g$ und Gerade $s$) die gleichen Schnittpunkte haben, entsteht hier ein Segment.
-   Rechnung: $A_{oben} = \dots = 1,125$ FE.
-4. **Restfläche:** $A_{unten} = 3,375 - 1,125 = 2,25$ FE.
-**Verhältnis:** $1,125 : 2,25 = 1 : 2$.
+Aus den **Schnittpunkten** von $f$ und $g$, nämlich $P_1(-1 | 0,5)$ und $P_2(2 | 2)$ lässt sich die **Steigung der Geraden** bestimmen
+
+$$m = \frac{2 - 0,5}{2 - (-1)} = \frac{1,5}{3} = 0,5.$$
+
+Mithilfe der Punktanstiegsform ergibt sich die Geradengleichung: 
+
+$$s(x) = 0,5x + 1.$$
+
+Die **Fläche zwischen der Parabel $g$ und über der Geraden $s$** ist
+
+$$A_{oben} = \int_{-1}^{2} (g(x) - s(x)) \, dx.$$
+
+Da beide Funktionen (Parabel $g$ und Gerade $s$) die gleichen Schnittpunkte haben, entsteht hier ein Segment.
+   Rechnung: $A_{oben} = \dots = 1,125$ FE.  
+Die **Restfläche:** ist:
+
+$$A_{unten} = 3,375 - 1,125 = 2,25 FE.$$
+
+Daher ist das **Teilungsverhältnis**:
+
+$$\frac{A_{oben}}{A_{unten}} = \frac{1,125}{2,25} = 1 : 2.$$
+
 
 ---
 
@@ -39,7 +56,7 @@ Weiterhin muss $u$ monoton wachsend sein. Zur Absicherung kann man sich vergewis
 
 ---
 
-### Ansatz:
+#### Ansatz:
 $$\frac{A}{2} = \int_{-1}^{0} (g(x) - f(x)) \, dx + \int_{0}^{x_+} (g(x) - u(x)) \, dx$$
 
 **liefert:** $m = 1,959$

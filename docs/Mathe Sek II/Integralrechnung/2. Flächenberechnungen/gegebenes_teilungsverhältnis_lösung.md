@@ -1,4 +1,4 @@
-# Flächenteilung mit gegebenem Verhältnis - Lösung
+# Gegebenes Teilungsverhältnis - Lösung
 
 ### Teilaufgabe a) Berechnung des Flächeninhalts
 1. **Nullstellen berechnen:**
