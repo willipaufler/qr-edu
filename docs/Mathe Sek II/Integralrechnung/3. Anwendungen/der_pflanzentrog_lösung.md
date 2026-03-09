@@ -5,7 +5,7 @@ Der tiefste Punkt liegt beim Scheitelpunkt $S(0|-4)$. Da die Oberkante bei $y=0$
 **Ergebnis:** Die maximale Höhe beträgt **$4 \text{ dm}$**.
 
 ### b) Maximales Fassungsvermögen
-1. **Querschnittsfläche:**
+Für die **Querschnittsfläche** gilt.
 
 \begin{align*}
 A &= |\int_{-4}^{4} (\frac{1}{4}x^2 - 4) \, dx|\\
@@ -15,10 +15,11 @@ A &= |\int_{-4}^{4} (\frac{1}{4}x^2 - 4) \, dx|\\
 &= |-21,33|= 21,33 \text{ dm}^2
 \end{align*}
 
-2. **Volumen:**
-   Länge $L = 12 \text{ m} = 120 \text{ dm}$.
+Das **Volumen** lässt sich mithilfe der Querschnittsfläche und der Länge $L = 12 \text{ m} = 120 \text{ dm}$ berechnen:
 
-   $$V =  A \cdot L= 21,33 \text{ dm}^2 \cdot 120 \text{ dm} = 2560 \text{ dm}^3.$$
+$$V =  A \cdot L= 21,33 \text{ dm}^2 \cdot 120 \text{ dm} = 2560 \text{ dm}^3$$
+
+
 
 **Ergebnis:** Das Fassungsvermögen beträgt **$2560 \text{ Liter}$**.
 
