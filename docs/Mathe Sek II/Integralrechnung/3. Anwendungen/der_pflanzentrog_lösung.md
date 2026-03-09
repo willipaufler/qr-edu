@@ -50,7 +50,9 @@ $$f(x)=-4+h \Leftrightarrow x=\pm \sqrt{4h}$$
 
 
 Mit diesen Integrationsgrenzen erhält man die Höhe durch Integration:
+
 $$\int_{-\sqrt{4h}}^{\sqrt{4h}} ((-4+h) - f(x)) \, dx = 1,25.$$
+
 
    Durch Lösen der Gleichung (CAS) ergibt sich: $h\approx 0,61.$  
 **Ergebnis:** Die Höhe beträgt ca. **$0,61 \text{ dm}$**.
