@@ -15,18 +15,18 @@ Mittels p-q-Formel und $x^2 - 5,5x + 7 = 0$ erhält man, dass die zweite Nullste
 
 * **Teilflächen berechnen:**
 
-   \begin{align*}
-   A_1 &= \int_{0}^{2} (x^3 - 5,5x^2 + 7x) \, dx\\ 
-   &= [\frac{1}{4}x^4 - \frac{11}{6}x^3 + 3,5x^2]_0^2\\
-   &= 4 - \frac{44}{3} + 14 = \frac{10}{3} \approx 3,33
-   \end{align*}
+\begin{align*}
+A_1 &= \int_{0}^{2} (x^3 - 5,5x^2 + 7x) \, dx\\ 
+&= [\frac{1}{4}x^4 - \frac{11}{6}x^3 + 3,5x^2]_0^2\\
+&= 4 - \frac{44}{3} + 14 = \frac{10}{3} \approx 3,33
+\end{align*}
 
 und
 
-   \begin{align*}
-   A_2 = \int_{2}^{3,5} (x^3 - 5,5x^2 + 7x) \, dx\\ 
-   &= [\dots]_2^{3,5} \approx -1,55$
-   \end{align*}
+\begin{align*}
+A_2 = \int_{2}^{3,5} (x^3 - 5,5x^2 + 7x) \, dx\\ 
+&= [\dots]_2^{3,5} \approx -1,55
+\end{align*}
    
 * **Gesamtfläche:**  
    $A_{ges} = \frac{10}{3} + |-1,55| = 4,88$ FE
