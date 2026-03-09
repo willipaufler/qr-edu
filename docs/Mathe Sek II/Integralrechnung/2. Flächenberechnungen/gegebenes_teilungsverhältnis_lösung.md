@@ -24,7 +24,7 @@ A_1 &= \int_{0}^{2} (x^3 - 5,5x^2 + 7x) \, dx\\
 und
 
 \begin{align*}
-A_2 = \int_{2}^{3,5} (x^3 - 5,5x^2 + 7x) \, dx\\ 
+A_2 &= \int_{2}^{3,5} (x^3 - 5,5x^2 + 7x) \, dx\\ 
 &= [\dots]_2^{3,5} \approx -1,55
 \end{align*}
    
