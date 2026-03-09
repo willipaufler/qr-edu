@@ -5,7 +5,7 @@ Gegeben: $f(x) = -x^2 + 4$, $g(x) = -4x + 8$, Punkt $P(2|0)$.
 
 1.  **Punktprobe:**
     * $f(2) = -(2)^2 + 4 = -4 + 4 = 0$ ✔️
-    * $g(2) = -4(2) + 8 = -8 + 8 = 0$ ✔️
+    * $g(2) = -4(2) + 8 = -8 + 8 = 0$ ✔️  
     Der Punkt $P(2|0)$ liegt auf beiden Graphen.
 
 2.  **Steigungsvergleich:**
@@ -22,7 +22,7 @@ Die Fläche wird begrenzt durch $x = 0$ ($y$-Achse) und $x = 2$ (Berührpunkt). 
 1.  **Differenzfunktion aufstellen:**
 
     $h(x) = g(x) - f(x) = (-4x + 8) - (-x^2 + 4)$
-    
+
     $h(x) = x^2 - 4x + 4$
 
 2.  **Integral berechnen:**
