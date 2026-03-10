@@ -26,11 +26,13 @@ V'(h) = \pi \cdot \left(100 - \frac{3}{4}h^2\right)
 $$
 Notwendige Bedingung $V'(h) = 0$:
 $$
-100 - \frac{3}{4}h^2 = 0 \implies \frac{3}{4}h^2 = 100 \implies h^2 = \frac{400}{3}
+100 - \frac{3}{4}h^2 = 0 \Longleftrightarrow h^2 = \frac{400}{3}
 $$
 $$
-h = \sqrt{\frac{400}{3}} = \frac{20}{\sqrt{3}} \approx 11,55\,\rm cm
+h = \pm\sqrt{\frac{400}{3}} = \pm\frac{20}{\sqrt{3}} \approx \pm11,55\,\rm cm
 $$
+Im Sachkontext entfällt die negative Lösung. Also $h\approx 11,55\,\rm cm$
+
 
 ### 3. Berechnung der restlichen Maße
 **Radius $r$:**
@@ -38,9 +40,9 @@ $$
 r^2 = 100 - \frac{\frac{400}{3}}{4} = 100 - \frac{100}{3} = \frac{200}{3}
 $$
 $$
-r = \sqrt{\frac{200}{3}} \approx 8,16\,\rm cm
+r = \pm\sqrt{\frac{200}{3}} \approx \pm8,16\,\rm cm
 $$
-
+Im Sachkontext entfällt die negative Lösung. Also $r\approx 8,16\,\rm cm$
 **Maximales Volumen $V$:**
 $$
 V_{max} = \pi \cdot \frac{200}{3} \cdot \frac{20}{\sqrt{3}} \approx 2418,40\,\rm cm^3

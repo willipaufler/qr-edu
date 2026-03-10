@@ -2,6 +2,7 @@
 
 ### 1. Geometrische Besonderheit
 Das Rechteck wird rechts durch die Gerade $x = 4$ begrenzt.
+
 * Fertige dir eine Skizze zur Aufgabe an.
 * Die **Höhe** ist $h = f(x)$.
 * Die **Breite** ist $b = 4 - x$.
@@ -9,6 +10,7 @@ Das Rechteck wird rechts durch die Gerade $x = 4$ begrenzt.
 
 ### 2. Globales vs. Lokales Maximum
 Ein Extremwertproblem ist erst dann gelöst, wenn man sicher ist, dass kein Randwert ein besseres Ergebnis liefert.
+
 * Berechne die Nullstellen der Ableitung $A'(x)$.
 * **Wichtig:** Vergleiche den Flächeninhalt an der Stelle $x$ (lokales Maximum) unbedingt mit den Flächen an den Rändern $x = 0$ und $x = 4$.
 

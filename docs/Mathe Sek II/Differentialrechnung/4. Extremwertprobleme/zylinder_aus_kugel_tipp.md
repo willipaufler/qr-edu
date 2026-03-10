@@ -2,10 +2,11 @@
 
 ### 1. Skizze und Schnittfigur
 Stelle dir einen vertikalen Schnitt durch die Mitte der Kugel vor. Du siehst einen Kreis (Kugel) und darin ein Rechteck (Zylinder).
-* Die Diagonale des Rechtecks entspricht dem Durchmesser der Kugel ($2R = 20\,\rm cm$).
+
+* Die Diagonale des Rechtecks entspricht dem Durchmesser der Kugel $(2R = 20\,\rm cm)$.
 
 ### 2. Nebenbedingung (Pythagoras)
-Betrachte das rechtwinklige Dreieck, das aus der halben Zylinderhöhe ($\frac{h}{2}$), dem Zylinderradius ($r$) und dem Kugelradius ($R$) gebildet wird:
+Betrachte das rechtwinklige Dreieck, das aus der halben Zylinderhöhe $\left(\frac{h}{2}\right)$, dem Zylinderradius $(r)$ und dem Kugelradius $(R)$ gebildet wird:
 $$
 r^2 + \left(\frac{h}{2}\right)^2 = R^2
 $$

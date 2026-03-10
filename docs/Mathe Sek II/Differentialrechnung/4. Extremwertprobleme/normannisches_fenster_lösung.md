@@ -18,10 +18,11 @@ L(d, h) = d + 2h + \frac{\pi}{2}d
 $$
 Einsetzen von $h$:
 $$
-L(d) = d + 2\left(\frac{4}{d} - \frac{\pi}{8}d\right) + \frac{\pi}{2}d
-$$
-$$
-L(d) = d + \frac{8}{d} - \frac{\pi}{4}d + \frac{\pi}{2}d = \frac{8}{d} + d \left(1 + \frac{\pi}{4}\right)
+\begin{aligned}
+L(d) &= d + 2\left(\frac{4}{d} - \frac{\pi}{8}d\right) + \frac{\pi}{2}d \\\\
+&= d + \frac{8}{d} - \frac{\pi}{4}d + \frac{\pi}{2}d \\\\
+&= \frac{8}{d} + d \left(1 + \frac{\pi}{4}\right)
+\end{aligned}
 $$
 
 ### 2. Extremwertberechnung
@@ -43,11 +44,12 @@ $$
 ### 3. Berechnung der Höhe $h$
 Setze $d \approx 2,117$ in die Formel für $h$ ein:
 $$
-h = \frac{4}{2,117} - \frac{\pi}{8} \cdot 2,117 \approx 1,889 - 0,831 \approx 1,058\,\rm m
+h = \frac{4}{2,117} - \frac{\pi}{8} \cdot 2,117 \approx 1,058\,\rm m
 $$
 
 ### 4. Ergebnis
 Damit die Rahmenlänge bei einer Fläche von $4\,\rm m^2$ minimal wird, müssen die Maße wie folgt gewählt werden:
+
 * **Breite $d \approx 2,12\,\rm m$**
 * **Höhe $h \approx 1,06\,\rm m$**
 

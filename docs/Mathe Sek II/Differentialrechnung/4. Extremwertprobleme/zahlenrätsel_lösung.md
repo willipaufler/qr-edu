@@ -35,5 +35,5 @@
    Dies hat keine reelle Lösung. 
 4. **Interpretation und Randwerte:**
    Da die Ableitung $S'(y)$ für alle positiven $y$ immer negativ ist ($S'(y) < 0$), fällt der Wert der Summe im gesamten Verlauf stetig ab.
-   Das bedeutet, die Summe wird umso kleiner, je größer $y$ gewählt wird. Da $x$ positiv sein muss ($x > 0$), kann $y$ maximal gegen 12 gehen.
+   Das bedeutet, die Summe wird umso kleiner, je größer $y$ gewählt wird. Da $x$ positiv sein muss ($x > 0$), kann $y$ maximal gegen 12 gehen.  
    **Ergebnis:** Ein lokales Minimum im Inneren existiert nicht; der Wert minimiert sich am Rand des Definitionsbereichs ($y \to 12, x \to 0$).

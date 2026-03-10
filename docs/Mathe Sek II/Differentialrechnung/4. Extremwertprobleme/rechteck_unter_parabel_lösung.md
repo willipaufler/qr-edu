@@ -3,7 +3,11 @@
 ### a) Maximaler Umfang
 **1. Zielfunktion aufstellen:**
 $$
-U(x) = 2 \cdot (2x) + 2 \cdot (6 - x^2) = 4x + 12 - 2x^2 = -2x^2 + 4x + 12
+\begin{aligned}
+U(x) &= 2 \cdot (2x) + 2 \cdot (6 - x^2) \\\\
+&= 4x + 12 - 2x^2 \\\\
+&= -2x^2 + 4x + 12
+\end{aligned}
 $$
 
 **2. Extremwert berechnen:**
@@ -12,14 +16,14 @@ $$
 U'(x) = -4x + 4
 $$
 $$
--4x + 4 = 0 \implies 4x = 4 \implies x = 1
+-4x + 4 = 0 \quad \Longleftrightarrow\quad x = 1
 $$
 
 **3. Überprüfung (Art des Extremums):**
 $$
 U''(x) = -4
 $$
-Da $U''(1) = -4 < 0$ ist, liegt an der Stelle $x = 1$ ein lokales Maximum vor.
+Da $U''(1) = -4 < 0$ ist, liegt an der Stelle $x = 1$ ein Maximum vor.
 
 **4. Abmessungen berechnen:**
 
@@ -44,15 +48,20 @@ $$
 A'(x) = 12 - 6x^2
 $$
 $$
-12 - 6x^2 = 0 \implies 6x^2 = 12 \implies x^2 = 2 \implies x = \sqrt{2} \approx 1,41
+12 - 6x^2 = 0 \Longleftrightarrow x = \pm \sqrt{2} \approx \pm 1,41
 $$
+
+ 
+
+!!! info "Geometrische Plausibilität"
+    Aus Symmetriegründen genügt es die positive Nullstelle der ersten Ableitung zu betrachten. Die Rechnung mit der negativen Nullstelle kann für Verwirrung sorgen. Ein negativer $x$-Wert ist im Sachkontext (Seitenlänge) nicht sinnvoll. Rechnerisch würde dieser zu einer negativen Fläche führen und bei der Überprüfung der zweiten Ableitung ein lokales Minimum liefern.
 
 **3. Überprüfung (Art des Extremums):**
 $$
 A''(x) = -12x
 $$
 $$
-A''(\sqrt{2}) = -12\sqrt{2} < 0 \implies \text{lokales Maximum}
+A''(\sqrt{2}) = -12\sqrt{2} < 0 \implies \text{Maximum}
 $$
 
 **4. Abmessungen berechnen:**
