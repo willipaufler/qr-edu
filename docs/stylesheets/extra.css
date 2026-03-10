@@ -8,4 +8,9 @@
   :root {
     --md-text-font: 'Computer Modern', serif;
   }
+
   
+/* Falls du KaTeX benutzt */
+.katex {
+    white-space: nowrap;
+}

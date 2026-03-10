@@ -10,18 +10,23 @@ $$
 * $x_2 = 4a$ (durch Nullsetzen der Klammer)
 * **Grundseite:** $g = 4a - 0 = 4a$
 
-Der Scheitelpunkt liegt bei $x_s = \frac{0 + 4a}{2} = 2a$. Der y-Wert (Höhe $h$) ist:
-$$
-h = |f_a(2a)| = \left| \frac{3-4a^2}{16a^2} \cdot (2a)^2 - \frac{3-4a^2}{4a} \cdot 2a \right|
-$$
-$$
-h = \left| \frac{3-4a^2}{4} - \frac{3-4a^2}{2} \right| = \left| -\frac{3-4a^2}{4} \right| = \frac{|3-4a^2|}{4}
-$$
+Der Scheitelpunkt der quadratischen Funktion liegt mittig zwischen den beiden Nullstellen bei $x_s = \frac{0 + 4a}{2} = 2a$. Der y-Wert (Höhe $h$) ist:
+
+\begin{align*}
+h &= |f_a(2a)| \\
+&= \left| \frac{3-4a^2}{16a^2} \cdot (2a)^2 - \frac{3-4a^2}{4a} \cdot 2a \right| \\
+&= \left| \frac{3-4a^2}{4} - \frac{3-4a^2}{2} \right| \\
+&= \left| -\frac{3-4a^2}{4} \right| \\
+&= \frac{|3-4a^2|}{4}
+\end{align*}
 
 ### 2. Aufstellen der Flächenfunktion
-$$
-A(a) = \frac{1}{2} \cdot g \cdot h = \frac{1}{2} \cdot 4a \cdot \frac{|3-4a^2|}{4} = \frac{1}{2} |3a - 4a^3|
-$$
+
+\begin{align*}
+A(a) &= \frac{1}{2} \cdot g \cdot h \\
+&= \frac{1}{2} \cdot 4a \cdot \frac{|3-4a^2|}{4} \\
+&= \frac{1}{2} |3a - 4a^3|
+\end{align*}
 
 Da für das Intervall $[\frac{1}{5}, \frac{4}{5}]$ der Ausdruck $3a - 4a^3$ positiv bleibt, betrachten wir:
 $$
@@ -35,10 +40,15 @@ Ableitungen bilden:
 * $A''(a) = -12a$
 
 Notwendige Bedingung $A'(a) = 0$:
-$$
-1,5 - 6a^2 = 0 \implies 6a^2 = 1,5 \implies a^2 = 0,25 \implies \mathbf{a = 0,5}
-$$
 
+\begin{align*}
+1{,}5 - 6a^2 &= 0 \\
+6a^2 &= 1{,}5 \\
+a^2 &= 0{,}25 \\
+a &= \pm 0{,}5
+\end{align*}
+
+Die negative Lösung entfällt, da sie nicht im Intervall $[\frac{1}{5}, \frac{4}{5}]$ liegen würde.
 Hinreichende Bedingung:
 $A''(0,5) = -12 \cdot 0,5 = -6 < 0 \implies$ **Maximum**.
 
