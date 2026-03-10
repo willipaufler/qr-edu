@@ -1,4 +1,4 @@
-# Zylinder in der Kugel - Tipps
+# Zylinder in der Kugel - Tipp
 
 ### 1. Skizze und Schnittfigur
 Stelle dir einen vertikalen Schnitt durch die Mitte der Kugel vor. Du siehst einen Kreis (Kugel) und darin ein Rechteck (Zylinder).
