@@ -17,7 +17,11 @@ Oft sieht man die Lösung erst nach einer kleinen Umformung:
 * $\frac{1}{x^n} = x^{-n}$
 * $\sqrt{x} = x^{0,5}$ oder $x^{\frac{1}{2}}$
 
-### 3. Der Hauptsatz (HDI)
-Setze die Grenzen in deine Stammfunktion ein:
-$$\int_{a}^{b} f(x) \, dx = [F(x)]_{a}^{b} = F(b) - F(a)$$
+### 3. Der Hauptsatz der Integralrechnung
+Setze die Grenzen in deine Stammfunktion ein:  
+$$
+\begin{aligned}\int_{a}^{b} f(x) \, dx = [F(x)]_{a}^{b} = F(b) - F(a)
+\end{aligned}
+$$
+
 *Vorsicht bei negativen Zahlen: Nutze Klammern beim Abziehen der unteren Grenze, um Vorzeichenfehler zu vermeiden!*
