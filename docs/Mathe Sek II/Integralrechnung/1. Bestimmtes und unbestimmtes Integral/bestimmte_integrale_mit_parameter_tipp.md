@@ -1,4 +1,4 @@
-# Bestimmtes Integral mit Parameter - Tipp
+# Bestimmte Integrale mit Parameter - Tipp
 
 Um den unbekannten Parameter $a$ zu berechnen, gehst du am besten immer nach dem gleichen Schema vor:
 

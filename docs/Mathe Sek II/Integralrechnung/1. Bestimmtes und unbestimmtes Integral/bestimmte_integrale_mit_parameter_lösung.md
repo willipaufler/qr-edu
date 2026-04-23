@@ -1,4 +1,4 @@
-# Bestimmtes Integral mit Parameter - Lösung
+# Bestimmte Integrale mit Parameter - Lösung
 
 Hier sind die detaillierten Berechnungen für die Bestimmung des Parameters $a$:
 
