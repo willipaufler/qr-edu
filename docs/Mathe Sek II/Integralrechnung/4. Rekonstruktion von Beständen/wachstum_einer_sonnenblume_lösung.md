@@ -1,3 +1,5 @@
+# Wachstum einer Sonnenblume - Lösung
+
 ### Lösung zu a) Berechnung der Anfangshöhe
 
 **Variante: Über den Gesamtzuwachs (Bestandsrekonstruktion)**

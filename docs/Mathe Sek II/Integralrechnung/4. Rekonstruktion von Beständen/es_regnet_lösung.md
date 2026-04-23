@@ -2,7 +2,6 @@
 
 ### Zu Teilaufgabe a)
 Berechnung des gesamten Zuflusses über 4 Stunden:
-
 $$
 \begin{aligned}
 V_{zu} &= \int_{0}^{4} (-15t^2 + 60t) \, dt \\\\
@@ -25,7 +24,6 @@ $$
 
 Füllhöhe nach $t = 2,5\,\text{h}$:
 Zuerst Volumen berechnen: $V(2,5) = 200 + (-5 \cdot 2,5^3 + 30 \cdot 2,5^2) = 309,375\,\text{l}$.
-
 $$
 \begin{aligned}
 H(2,5) &= \frac{309375}{1600\pi} \approx \mathbf{61,55\,\text{cm}}

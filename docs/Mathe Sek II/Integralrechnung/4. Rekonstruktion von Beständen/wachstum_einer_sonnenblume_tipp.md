@@ -1,4 +1,4 @@
-# Wachstum der Sonnenblume - Tipp
+# Wachstum einer Sonnenblume - Tipp
 
 ### Aufgabe a) & b) Bestandsrekonstruktion
 Du hast die Wachstumsrate $w(t)$ (cm/Tag). Um die Höhe $h(t)$ zu finden, musst du integrieren.
