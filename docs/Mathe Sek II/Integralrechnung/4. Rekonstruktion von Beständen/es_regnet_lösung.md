@@ -41,4 +41,4 @@ $$
 
 Mittels CAS ergibt sich:  **$T = 3\,\text{h}$**.
 
-**Ergebnis:** Nach etwa **3 Stunden** hat die Tonne wieder ihren Anfangsbestand von 200 Litern erreicht.
+**Ergebnis:** Nach **3 Stunden** Gesamtzeit bzw. $3\,\text{h}$-2,5\,\text{h}=0,5\,\text{h}$ nach Öffnung des Wasserhahns hat die Tonne wieder ihren Anfangsbestand von 200 Litern erreicht.
