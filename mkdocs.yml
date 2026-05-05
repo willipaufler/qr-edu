@@ -68,3 +68,11 @@ extra_javascript:
 extra_css:
   - stylesheets/extra.css
   - https://unpkg.com/katex@0/dist/katex.min.css
+
+
+
+nav:
+  - Home: index.md
+  - Mathe Sek I:
+      - Potenzfunktionen: ma_sek_I/potenzfunktion/index.md
+      # Die Tipps und Lösungen werden hier einfach nicht erwähnt.
