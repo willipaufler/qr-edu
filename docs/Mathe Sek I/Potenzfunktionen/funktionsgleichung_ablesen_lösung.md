@@ -3,7 +3,7 @@
 
 
 #### 1. Bestimmung von $f(x)$ (Grad 3)
-Der Sattelpunkt liegt bei $S(0|1)$. Die Form ist $f(x) = a\cdot x+^3 + 1$.
+Der Sattelpunkt liegt bei $S(0|1)$. Die Form ist $f(x) = a\cdot x^3 + 1$.
 Ein weiterer Punkt (z.B. der Punkt bei $P(2|-1)$) hilft, $a$ zu bestimmen:
 
 \begin{align*}
