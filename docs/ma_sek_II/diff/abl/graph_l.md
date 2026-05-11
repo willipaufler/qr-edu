@@ -1,8 +1,8 @@
-# Grafisches Differenzieren - Lösung
+# Graphisches Differenzieren - Lösung
 
 ### a) Skizzieren der Ableitungsfunktion $f'$
 
-![Grafisches Aufleiten](../../../assets/images/grafisches_ableiten_f'.png){width="60%"}
+![Graphisches Aufleiten](../../../assets/images/grafisches_ableiten_f'.png){width="60%"}
 /// caption
 Graph der Funktion $f$ (schwarz) und der zugehörigen Ableitung $f'$ (blau).
 ///

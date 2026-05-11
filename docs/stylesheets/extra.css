@@ -66,9 +66,10 @@
     border: none;
 
     /*für zentrierung*/
+    width: 100%;           /* Nutzt den Platz in der Karte */
+    max-width: 180px;      /* Verhindert, dass sie zu riesig werden */
     justify-content: center;
-    width: 80%;             /* Optional: Buttons einheitlich breit machen */
-    max-width: 200px;
+    margin: 6px 0;         /* Vertikaler Abstand zwischen den Buttons */
 }
 
 /* Lösung-Button farblich dezenter */

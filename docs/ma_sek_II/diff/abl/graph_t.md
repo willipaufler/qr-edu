@@ -1,4 +1,4 @@
-# Grafisches Ableiten - Tipp
+# Graphisches Ableiten - Tipp
 
 ### Zu Teilaufgabe a)
 * Suche die Stellen, an denen der Graph von $f$ einen **Hochpunkt (HP)** oder **Tiefpunkt (TP)** hat. Dort ist die Tangente waagerecht, der Anstieg also $0$. Markiere diese Stellen auf der x-Achse als **Nullstellen** für $f'$.

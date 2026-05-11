@@ -76,3 +76,8 @@ nav:
   - Mathe Sek I:
       - Potenzfunktionen: ma_sek_I/potenzfunktion/index.md
       # Die Tipps und Lösungen werden hier einfach nicht erwähnt.
+  - Mathe Sek II:
+      - Differentialrechnung:
+        - 1. Grundlagen Funktionen: ma_sek_II/diff/basic/index.md
+        - 2. Ableitungen: ma_sek_II/diff/abl/index.md
+        - 3. Tangenten, Normalen & Winkel: ma_sek_II/diff/tnw/index.md
