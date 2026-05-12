@@ -1,4 +1,4 @@
-# Station: Extremwertprobleme 📈
+# Station: Extremwertprobleme
 
 Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nutze die Tipps, wenn du bei einer Aufgabe feststeckst, und die Lösungen, um dein Ergebnis zu kontrollieren.
 

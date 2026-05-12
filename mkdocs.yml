@@ -84,3 +84,8 @@ nav:
         - 4. Kurvendiskussion: ma_sek_II/diff/kd/index.md
         - 5. Extremwertprobleme: ma_sek_II/diff/ewp/index.md
         - 6. Rekonstruktion: ma_sek_II/diff/rek/index.md
+      - Integralrechnung:
+        - 1. Bestimmtes und unbestimmtes Integral: ma_sek_II/int/basic/index.md
+        - 2. Flächenberechnung: ma_sek_II/int/flaeche/index.md
+        - 3. Volumenberechnung: ma_sek_II/int/vol/index.md
+        - 4. Rekonstruktion von Beständen: ma_sek_II/int/rek/index.md

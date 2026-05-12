@@ -49,7 +49,7 @@
 
 .neumorph-card:hover {
     transform: none;
-    box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);
+    /*box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.2);*/ /*Karten sinken ein bei mouse-over*/
 }
 
 /* Kompakte Neumorphic Buttons */
