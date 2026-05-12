@@ -81,3 +81,6 @@ nav:
         - 1. Grundlagen Funktionen: ma_sek_II/diff/basic/index.md
         - 2. Ableitungen: ma_sek_II/diff/abl/index.md
         - 3. Tangenten, Normalen & Winkel: ma_sek_II/diff/tnw/index.md
+        - 4. Kurvendiskussion: ma_sek_II/diff/kd/index.md
+        - 5. Extremwertprobleme: ma_sek_II/diff/ewp/index.md
+        - 6. Rekonstruktion: ma_sek_II/diff/rek/index.md
