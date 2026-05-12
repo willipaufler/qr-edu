@@ -14,7 +14,7 @@ theme:
         icon: material/weather-sunny
         name: Dark mode
       primary: green
-      accent: deep purple
+      accent: orange
 
     # Light Mode
     - scheme: default
@@ -22,7 +22,7 @@ theme:
         icon: material/weather-night
         name: Light mode
       primary: blue
-      accent: deep orange
+      accent: orange
   
 
 # Emojis ans Icons
@@ -89,3 +89,5 @@ nav:
         - 2. Flächenberechnung: ma_sek_II/int/flaeche/index.md
         - 3. Volumenberechnung: ma_sek_II/int/vol/index.md
         - 4. Rekonstruktion von Beständen: ma_sek_II/int/rek/index.md
+      - Vektorrechnung:
+        - 1. Punkte und Vektoren: ma_sek_II/vek/basic/index.md
