@@ -2,6 +2,11 @@
 
 ## Was gibt es hier?
 
+✅ Aufgaben für Stationsarbeit, Lerntheken, LK-Vorbereitung, selbständiges Üben auf Eduki
+
+✅ hilfreiche Tipps
+
+✅ ausfühliche Lösungen
 
 
 ## Woher kommt die Idee?
