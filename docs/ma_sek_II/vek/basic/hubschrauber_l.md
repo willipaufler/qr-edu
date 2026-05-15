@@ -34,11 +34,10 @@ Die Geschwindigkeit beträgt $210$ km/h.
 
 ### b) Bestimmen der Position nach weiteren 4, also insgesamt 5 Minuten
 Wir addieren das Fünffache des Minutenvektors zum Startpunkt $P$:
-
 $$
 \begin{aligned}
-\vec{r}_{5} &= \vec{OP} + 5 \cdot \vec{v} \\\\
-\vec{r}_{5} &= \begin{pmatrix} 20 \\\\ 50 \\\\ 8 \end{pmatrix} + 5 \cdot \begin{pmatrix} 21 \\\\ 28 \\\\ 0 \end{pmatrix}= \begin{pmatrix} 125 \\\\ 190 \\\\ 8 \end{pmatrix}
+\vec{r}_5 &= \vec{OP} + 5 \cdot \vec{v} \\\\
+\vec{r}_5 &= \begin{pmatrix} 20 \\\\ 50 \\\\ 8 \end{pmatrix} + 5 \cdot \begin{pmatrix} 21 \\\\ 28 \\\\ 0 \end{pmatrix} = \begin{pmatrix} 125 \\\\ 190 \\\\ 8 \end{pmatrix}
 \end{aligned}
 $$
 
