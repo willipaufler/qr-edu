@@ -29,15 +29,15 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 <div class="neumorph-card" markdown>
 **Ableitungsregeln I**  
 --- 
-[:material-lightbulb-outline: Tipp](regel_I_t.md){.neumorph-btn}  
-[:material-check-circle-outline: Lösung](regel_I_l.md){.neumorph-btn .neumorph-btn-primary}
+[:material-lightbulb-outline: Tipp](regel_i_t.md){.neumorph-btn}  
+[:material-check-circle-outline: Lösung](regel_i_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
 
 <div class="neumorph-card" markdown>
 **Ableitungsregeln II**  
 ---------  
-[:material-lightbulb-outline: Tipp](regel_II_t.md){.neumorph-btn}  
-[:material-check-circle-outline: Lösung](regel_II_l.md){.neumorph-btn .neumorph-btn-primary}
+[:material-lightbulb-outline: Tipp](regel_ii_t.md){.neumorph-btn}  
+[:material-check-circle-outline: Lösung](regel_ii_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
 
 <div class="neumorph-card" markdown>

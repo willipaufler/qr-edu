@@ -1,4 +1,4 @@
-site_name: QR - Aufgaben
+site_name: QR - Summe
 site_url: https://qr-summe.de
 theme:
   name: material
@@ -72,22 +72,22 @@ extra_css:
 
 
 nav:
-  - Home: index.md
-  - Mathe Sek I:
-      - Potenzfunktionen: ma_sek_I/potenzfunktion/index.md
+  - 🏫 Home: index.md
+  - 📘 Mathe Sek I:
+      - Potenzfunktionen: ma_sek_i/potenzfunktion/index.md
       # Die Tipps und Lösungen werden hier einfach nicht erwähnt.
-  - Mathe Sek II:
+  - 📗 Mathe Sek II:
       - Differentialrechnung:
-        - 1. Grundlagen Funktionen: ma_sek_II/diff/basic/index.md
-        - 2. Ableitungen: ma_sek_II/diff/abl/index.md
-        - 3. Tangenten, Normalen & Winkel: ma_sek_II/diff/tnw/index.md
-        - 4. Kurvendiskussion: ma_sek_II/diff/kd/index.md
-        - 5. Extremwertprobleme: ma_sek_II/diff/ewp/index.md
-        - 6. Rekonstruktion: ma_sek_II/diff/rek/index.md
+        - 1. Grundlagen Funktionen: ma_sek_ii/diff/basic/index.md
+        - 2. Ableitungen: ma_sek_ii/diff/abl/index.md
+        - 3. Tangenten, Normalen & Winkel: ma_sek_ii/diff/tnw/index.md
+        - 4. Kurvendiskussion: ma_sek_ii/diff/kd/index.md
+        - 5. Extremwertprobleme: ma_sek_ii/diff/ewp/index.md
+        - 6. Rekonstruktion: ma_sek_ii/diff/rek/index.md
       - Integralrechnung:
-        - 1. Bestimmtes und unbestimmtes Integral: ma_sek_II/int/basic/index.md
-        - 2. Flächenberechnung: ma_sek_II/int/flaeche/index.md
-        - 3. Volumenberechnung: ma_sek_II/int/vol/index.md
-        - 4. Rekonstruktion von Beständen: ma_sek_II/int/rek/index.md
+        - 1. Bestimmtes und unbestimmtes Integral: ma_sek_ii/int/basic/index.md
+        - 2. Flächenberechnung: ma_sek_ii/int/flaeche/index.md
+        - 3. Volumenberechnung: ma_sek_ii/int/vol/index.md
+        - 4. Rekonstruktion von Beständen: ma_sek_ii/int/rek/index.md
       - Vektorrechnung:
-        - 1. Punkte und Vektoren: ma_sek_II/vek/basic/index.md
+        - 1. Punkte und Vektoren: ma_sek_ii/vek/basic/index.md
