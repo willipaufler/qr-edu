@@ -131,7 +131,7 @@
 
 .hero-title {
     /* Fluid Typography: Passt sich stufenlos der Displaygröße an */
-    font-size: clamp(1.5rem, 6.5vw, 2.6rem) !important;
+    font-size: clamp(1.5rem, 6.5vw, 2.8rem) !important;
     font-weight: 700;
     line-height: 1.2;
     margin-top: 0;

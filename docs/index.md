@@ -9,7 +9,8 @@ hide:
     Klausurvorbereitung per QR-Code
   </h1>
   <p style="font-size: 1.1rem; opacity: 0.85; line-height: 1.6; margin-bottom: 2.5rem;">
-    Gedruckte Aufgabenkarten für die Sekundarstufe II. Durch das QR-Code-System steuern sich die Schülerinnen und Schüler komplett selbstständig durch die Wiederholung.
+    Gedruckte Aufgabenkarten für die Sekundarstufe II.
+    Durch das QR-Code-System steuern sich die Schülerinnen und Schüler komplett selbstständig durch die Wiederholung.
   </p>
   
   <a href="https://eduki.com/de/..." class="neumorph-btn neumorph-btn-cta">
@@ -47,7 +48,7 @@ hide:
     <div style="font-size: 2rem; margin-bottom: 0.5rem;">📱</div>
     <h3 style="margin-top: 0;">3. Hilfe per QR-Code</h3>
     <p style="font-size: 0.9rem; opacity: 0.75; line-height: 1.5;">
-      Wer hakt, scannt den Tipp-Code für einen kleinen Schubs. Wer fertig ist, kontrolliert sich über den Lösungs-Code selbst.
+      Wer nicht weiter kommt, scannt den Tipp-Code für einen kleinen Schubs. Wer fertig ist, kontrolliert sich über den Lösungs-Code selbst.
     </p>
   </div>
 
