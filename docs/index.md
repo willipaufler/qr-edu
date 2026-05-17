@@ -5,7 +5,7 @@ hide:
 ---
 
 <div style="text-align: center; margin: 3rem auto 2rem auto; max-width: 800px;">
-  <h1 style="font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; line-height: 1.2;">
+  <h1 class="hero-title">
     Klausurvorbereitung per QR-Code
   </h1>
   <p style="font-size: 1.1rem; opacity: 0.85; line-height: 1.6; margin-bottom: 2.5rem;">

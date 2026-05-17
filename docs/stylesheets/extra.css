@@ -126,3 +126,20 @@
     color: #d18719 !important; /* Farbe ändert sich beim Drüberfahren leicht */
     background: var(--md-default-bg-color);
 }
+
+
+
+.hero-title {
+    /* Fluid Typography: Passt sich stufenlos der Displaygröße an */
+    font-size: clamp(1.5rem, 6.5vw, 2.6rem) !important;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--md-typeset-color) !important;
+    
+    /* Verhindert das unschöne Abschneiden mitten im Wort */
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+}
