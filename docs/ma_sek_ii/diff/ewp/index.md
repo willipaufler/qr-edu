@@ -41,6 +41,14 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 </div>
 
 <div class="neumorph-card" markdown>
+**Rechteck im Dreieck**  
+---------  
+[:material-lightbulb-outline: Tipp](gleichseit_t.md){.neumorph-btn}  
+[:material-check-circle-outline: Lösung](gleichseit_l.md){.neumorph-btn .neumorph-btn-primary}
+</div>
+
+
+<div class="neumorph-card" markdown>
 **Zylinder aus Kugel**  
 ---
 [:material-lightbulb-outline: Tipp](zylinder_t.md){.neumorph-btn}  
@@ -52,6 +60,13 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 ---
 [:material-lightbulb-outline: Tipp](kegel_t.md){.neumorph-btn}  
 [:material-check-circle-outline: Lösung](kegel_l.md){.neumorph-btn .neumorph-btn-primary}
+</div>
+
+<div class="neumorph-card" markdown>
+**Dreieck unter Tangente**  
+---
+[:material-lightbulb-outline: Tipp](tangente_t.md){.neumorph-btn}  
+[:material-check-circle-outline: Lösung](tangente_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
 
 </div>

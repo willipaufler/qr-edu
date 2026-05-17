@@ -6,7 +6,11 @@ Um eine spezifische Stammfunktion zu finden, die eine bestimmte Bedingung erfül
 
 ### 1. Die allgemeine Stammfunktion finden
 Bestimme zuerst die Menge aller Stammfunktionen, indem du die Integrationskonstante $C$ hinzufügst:
-$$F(x) = \int f(x) \, dx + C$$
+$$
+\begin{aligned}
+F(x) = \int f(x) \, dx + C
+\end{aligned}
+$$
 
 ### 2. Die Konstante $C$ berechnen
 Nutze die gegebene Eigenschaft, um eine Gleichung aufzustellen und nach $C$ aufzulösen:

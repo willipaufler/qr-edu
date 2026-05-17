@@ -6,14 +6,14 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 <div class="grid cards" markdown>
 
 <div class="neumorph-card" markdown>
-**Verschoebener Sattelpunkt**  
+**Verschobener Sattelpunkt**  
 --- 
 [:material-lightbulb-outline: Tipp](sattelp_t.md){.neumorph-btn}  
 [:material-check-circle-outline: Lösung](sattelp_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
 
 <div class="neumorph-card" markdown>
-**Achsensymmeetrische Funktion**  
+**Achsensymmetrische Funktion**  
 --- 
 [:material-lightbulb-outline: Tipp](achsensym_t.md){.neumorph-btn}  
 [:material-check-circle-outline: Lösung](achsensym_l.md){.neumorph-btn .neumorph-btn-primary}

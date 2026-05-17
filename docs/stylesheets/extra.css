@@ -16,10 +16,46 @@
 }
 
 
+/*
+/*
+/* Landing Page */
+/*------------------------*/
+
+/* Großer, prominenter CTA-Button für die Landingpage */
+.md-typeset .neumorph-btn-cta {
+    max-width: 280px !important;
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    font-weight: 600;
+    color: #4caf50 !important; /* Nutzt dein schönes Eduki-/Lösungs-Grün */
+    border: 1px solid rgba(76, 175, 80, 0.3) !important;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), 
+                -3px -3px 8px rgba(255, 255, 255, 0.05),
+                inset 0 0 10px rgba(76, 175, 80, 0.05);
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+/* Hover-Effekt für den Haupt-Button */
+.md-typeset .neumorph-btn-cta:hover {
+    transform: translateY(-2px) !important; /* Schwebt leicht nach oben statt einzusinken, da es der Haupt-Button ist */
+    border: 1px solid rgba(76, 175, 80, 0.6) !important;
+    box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.2),
+                4px 4px 12px rgba(0, 0, 0, 0.4);
+    color: #fff !important;
+    background: rgba(76, 175, 80, 0.1) !important;
+}
 
 
 
+
+
+/*-------------------------------*/
+/*
 /* Neumorphic buttons */
+/*
+/*
+
 
 /* Container für mehr Abstand zwischen den Karten */
 .grid.cards {
