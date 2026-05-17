@@ -3,8 +3,6 @@ site_url: https://qr-summe.de
 theme:
   name: material
   font: false #Deaktiviert um Konflikt mit extra.css zu vermeiden
-  features:
-    - navigation.footer
   icon:
     logo: material/account-school-outline
   palette:

@@ -73,3 +73,11 @@ hide:
     </p>
   </div>
 </div>
+
+
+
+<div style="text-align: center; margin: 3rem auto 2rem auto; max-width: 800px;">
+  <a href="https://eduki.com/de/..." class="neumorph-btn neumorph-btn-cta">
+    📦 Zu den Materialpaketen auf Eduki
+  </a>
+</div>
