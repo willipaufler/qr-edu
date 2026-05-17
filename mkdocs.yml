@@ -6,20 +6,30 @@ theme:
   icon:
     logo: material/account-school-outline
   palette:
-    # Dark Mode
-    - scheme: slate
+    # 1. Automatische Systemerkennung (wählt je nach OS-Einstellung)
+    - media: "(prefers-color-scheme)"
       toggle:
-        icon: material/weather-sunny
-        name: Dark mode
-      primary: green
+        icon: material/brightness-auto
+        name: Zum hellen Modus wechseln
+      primary: blue
       accent: orange
 
-    # Light Mode
-    - scheme: default
+    # 2. Light Mode (wird aktiv, wenn der User explizit "hell" erzwingt)
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       toggle:
         icon: material/weather-night
-        name: Light mode
+        name: Zum dunklen Modus wechseln
       primary: blue
+      accent: orange
+
+    # 3. Dark Mode (wird aktiv, wenn der User explizit "dunkel" erzwingt)
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Zu Systemeinstellungen wechseln
+      primary: green
       accent: orange
   
 

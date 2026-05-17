@@ -108,24 +108,62 @@
     margin: 6px 0;         /* Vertikaler Abstand zwischen den Buttons */
 }
 
-/* Lösung-Button farblich dezenter */
-.md-typeset .neumorph-btn-primary {
-    color: #4caf50; 
-    border: 1px solid rgba(76, 175, 80, 0.2);
-}
-
-/* Verhindert das typische Link-Blau und Unterstreichen in den Buttons */
+/* ==========================================================================
+   1. Allgemeine Button-Basisregeln (für beide Modi)
+   ========================================================================== */
 .md-typeset .neumorph-btn {
     color: var(--md-typeset-color) !important;
     text-decoration: none !important;
+    transition: all 0.3s ease !important;
 }
 
-/* Hover-Effekt für die Buttons */
+/* Globaler Hover-Effekt (sinkt leicht ein) */
 .md-typeset .neumorph-btn:hover {
-    transform: translateY(2px); /* Leichter Einsink-Effekt statt */
-    color: #d18719 !important; /* Farbe ändert sich beim Drüberfahren leicht */
-    background: var(--md-default-bg-color);
+    transform: translateY(2px) !important;
+    background: var(--md-default-bg-color) !important;
 }
+
+
+/* ==========================================================================
+   2. Modus-abhängiges Design (Hell = Blau | Dunkel = Grün)
+   ========================================================================== */
+
+/* --- LIGHT MODE (data-md-color-scheme: default) --- */
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-primary,
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-cta {
+    color: #000000 !important; /* Ein schönes, klares Light-Mode Blau */
+    border: 1px solid rgba(30, 136, 229, 0.25) !important;
+}
+
+/* Hover-Effekt im Light Mode */
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-primary:hover,
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-cta:hover {
+    color: #000000 !important; /* Etwas dunkleres Blau für optimalen Kontrast */
+    background: rgba(30, 136, 229, 0.05) !important; /* Hauchzarter blauer Schimmer innen */
+    border: 1px solid rgba(30, 136, 229, 0.5) !important;
+    box-shadow: 0px 0px 10px rgba(30, 136, 229, 0.15) !important;
+}
+
+
+/* --- DARK MODE (data-md-color-scheme: slate) --- */
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-primary,
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-cta {
+    color: #ffffff !important; /* Weißer Text für den edlen Buchdruck-Look */
+    border: 1px solid rgba(76, 175, 80, 0.4) !important; /* Etwas kräftigere, aber dezente grüne Kante */
+    background: rgba(76, 175, 80, 0.02) !important; /* Hauchzarte grüne Hintergrund-Nuance */
+}
+
+/* Hover-Effekt im Dark Mode: Button füllt sich sanft mit Grün */
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-primary:hover,
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-cta:hover {
+    color: #ffffff !important; 
+    background: rgba(76, 175, 80, 0.05) !important; /* Schimmert beim Drüberfahren ein wenig mehr */
+    border: 1px solid rgba(76, 175, 80, 0.8) !important; /* Kante leuchtet präzise auf */
+    box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.25),
+                4px 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+
 
 
 
