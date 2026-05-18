@@ -2,12 +2,29 @@
 
 ### a) Nachweis der horizontalen Ausläufe
 Zuerst bilden wir die Ableitung:
-$h(x) = -0,05x^3 + 0,3x^2 \implies h'(x) = -0,15x^2 + 0,6x$
+$$
+\begin{aligned}
+h(x) &= -0,05x^3 + 0,3x^2\\\\
+h'(x) &= -0,15x^2 + 0,6x
+\end{aligned}
+$$
 
-* **An der Stelle $x=0$:** $h'(0) = -0,15(0)^2 + 0,6(0) = 0$.
-* **An der Stelle $x=4$:** $h'(4) = -0,15(16) + 0,6(4) = -2,4 + 2,4 = 0$.
 
-An beiden Stellen ist die Tangente waagerecht, der Hang läuft also horizontal aus.
+* **An der Stelle $x=0$:** 
+$$
+\begin{aligned}
+h'(0) = -0,15\cdot0^2 + 0,6\cdot 0 = 0.
+\end{aligned}
+$$
+* **An der Stelle $x=4$:** 
+$$
+\begin{aligned}
+h'(4) &= -0,15\cdot 4^2 + 0,6\cdot 4\\\\
+ &= -2,4 + 2,4 = 0.
+\end{aligned}
+$$
+
+An beiden Stellen ist der Anstieg der Tangente Null, der Hang läuft also horizontal aus.
 
 ---
 
@@ -28,10 +45,15 @@ Die Lösung $u=3$ liefert die Stelle, an der der Blick den Hügel streift.
 
 **2. Steigung der Sichtlinie:**
 
-$m = h'(3) = -0,15(3)^2 + 0,6(3) = -1,35 + 1,8 = 0,45$.  
+$$
+\begin{aligned}
+m &= h'(3) = -0,15\cdot 3^2 + 0,6 \cdot 3\\\\
+ &= 0,45
+\end{aligned}
+$$
 Die Gleichung der Sichtlinie lautet somit $t(x) = 0,45x$.
 
-**3. Koordinaten des Aussichtspunktes $B$ ($x=4$):**
+**3. Koordinaten des Aussichtspunktes $B$ an der Stelle $x=4$**
 
 $y_B = t(4) = 0,45 \cdot 4 = 1,8$.  
 Der Aussichtspunkt hat die Koordinaten **$B(4 | 1,8)$**.
@@ -39,9 +61,14 @@ Der Aussichtspunkt hat die Koordinaten **$B(4 | 1,8)$**.
 **4. Turmhöhe berechnen:**
 
 Geländehöhe am Punkt $x=4$:
-$h(4) = -0,05(4)^3 + 0,3(4)^2 = -3,2 + 4,8 = 1,6$.
+$$
+\begin{aligned}
+h(4) &= -0,05\cdot 4^3 + 0,3\cdot 4^2 \\\\
+ &= 1,6
+\end{aligned}
+$$
 
-Die Differenz beträgt: $1,8 - 1,6 = 0,2$ Längeneinheiten.
+Die Differenz beträgt: $1,8 - 1,6 = 0,2$ Längeneinheiten.  
 Da $1\,\text{LE} = 100\,\text{m}$ entspricht, ergibt sich:
 $0,2 \cdot 100\,\text{m} = 20\,\text{m}$.
 
