@@ -41,7 +41,7 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 </div>
 
 <div class="neumorph-card" markdown>
-**Substionsmethode**  
+**Substitutionsmethode**  
 ---
 [:material-lightbulb-outline: Tipp](substitution_t.md){.neumorph-btn}  
 [:material-check-circle-outline: Lösung](substitution_l.md){.neumorph-btn .neumorph-btn-primary}
