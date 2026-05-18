@@ -3,6 +3,11 @@
 Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nutze die Tipps, wenn du bei einer Aufgabe feststeckst, und die Lösungen, um dein Ergebnis zu kontrollieren.
 
 
+
+
+<div class="neumorph-trenner">Innermathematische Extremwertprobleme</div>
+
+
 <div class="grid cards" markdown>
 
 <div class="neumorph-card" markdown>
@@ -26,12 +31,29 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 [:material-check-circle-outline: Lösung](randwert_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
 
+
 <div class="neumorph-card" markdown>
 **Dreieck und Kurvenschar**  
 --- 
 [:material-lightbulb-outline: Tipp](dreieck_t.md){.neumorph-btn}  
 [:material-check-circle-outline: Lösung](dreieck_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
+
+<div class="neumorph-card" markdown>
+**Dreieck unter Tangente**  
+---
+[:material-lightbulb-outline: Tipp](tangente_t.md){.neumorph-btn}  
+[:material-check-circle-outline: Lösung](tangente_l.md){.neumorph-btn .neumorph-btn-primary}
+</div>
+
+</div>
+
+
+<div class="neumorph-trenner">Geometrische Extremwertprobleme</div>
+
+<div class="grid cards" markdown>
+
+
 
 <div class="neumorph-card" markdown>
 **Normannisches Fenster**  
@@ -62,11 +84,28 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 [:material-check-circle-outline: Lösung](kegel_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
 
+
+
+</div>
+
+
+<div class="neumorph-trenner">Ökonomische Extremwertprobleme</div>
+
+
+<div class="grid cards" markdown>
+
 <div class="neumorph-card" markdown>
-**Dreieck unter Tangente**  
----
-[:material-lightbulb-outline: Tipp](tangente_t.md){.neumorph-btn}  
-[:material-check-circle-outline: Lösung](tangente_l.md){.neumorph-btn .neumorph-btn-primary}
+**Hasengehege im Garten**  
+--- 
+[:material-lightbulb-outline: Tipp](gehege_t.md){.neumorph-btn}  
+[:material-check-circle-outline: Lösung](gehege_l.md){.neumorph-btn .neumorph-btn-primary}
+</div>
+
+<div class="neumorph-card" markdown>
+**Optimaler Ticketpreis**  
+--- 
+[:material-lightbulb-outline: Tipp](ticket_t.md){.neumorph-btn}  
+[:material-check-circle-outline: Lösung](ticket_l.md){.neumorph-btn .neumorph-btn-primary}
 </div>
 
 </div>
