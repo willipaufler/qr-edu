@@ -36,9 +36,9 @@ $$
 
 #### 3. Ergebnisse
 
-* **Höhe:** $h = 12$
-* **Radius:** $r = \sqrt{18(12) - 12^2} = \sqrt{72} \approx 8,49$
-* **Max. Volumen:** $V(12) = \frac{\pi}{3}(18 \cdot 12^2 - 12^3) = 288\pi \approx 904,78\,\rm VE$
+* **Höhe:** $h = 12\,\rm cm$
+* **Radius:** $r = \sqrt{18\cdot 12 - 12^2} \approx 8,49\,\rm cm$
+* **Max. Volumen:** $V(12) = \frac{\pi}{3}(18 \cdot 12^2 - 12^3) \approx 904,78\,\rm cm^3$
 
 ---
 

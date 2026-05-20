@@ -33,10 +33,11 @@ $$
 $h(115,48) \approx 10,26 \implies H(115,48|10,26)$.
 
 3. Direkte Entfernung von der Grundkante $S(0|90,7)$ zu $H(115,48|10,26)$:
-$$\begin{aligned}
-d &= \sqrt{(x_H - 0)^2 + (h(x_H) - 90,7)^2} \\\\
-d &= \sqrt{115,48^2 + (10,26 - 90,7)^2} \\\\
-d &\approx 140,73
+$$
+\begin{aligned}
+s_H &= \sqrt{(x_H - 0)^2 + (h(x_H) - 90,7)^2} \\\\
+s_H &= \sqrt{115,48^2 + (10,26 - 90,7)^2} \\\\
+s_H &\approx 140,73
 \end{aligned}
 $$
 Ergebnis: Die direkte Entfernung von der Grundkante beträgt ca. $140,73\,\text{m}$.
