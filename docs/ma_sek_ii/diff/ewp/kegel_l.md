@@ -1,6 +1,6 @@
 # Kegel in Kugel - Lösung
 
-### Aufgabe a) Extremwertbestimmung mit $R = 9$
+### Aufgabe a) Extremwertbestimmung mit $R = 9\,\rm cm$
 
 ![Kegel in Kugel](../../../assets/images/kegel_in_kugel_light.png#only-light){width="60%"}
 ![Kegel in Kugel](../../../assets/images/kegel_in_kugel_dark.png#only-dark){width="60%"}
@@ -78,7 +78,7 @@ Maximales Kegelvolumen:
 $$
 V_{\text{max}} = \frac{1}{3}\pi \cdot \frac{8}{9}R^2 \cdot \frac{4}{3}R = \frac{32}{81}\pi R^3
 $$
-Verhältnis zum Kugelvolumen ($V_{\text{Kugel}} = \frac{4}{3}\pi R^3$):
+Verhältnis zum Kugelvolumen $V_{\text{Kugel}} = \frac{4}{3}\pi R^3$:
 $$
 \begin{aligned}
 \frac{V_{\text{Kegel}}}{V_{\text{Kugel}}} &= \frac{\frac{32}{81}\pi R^3}{\frac{4}{3}\pi R^3} \\\\
