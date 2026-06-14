@@ -102,3 +102,4 @@ nav:
         - 4. Rekonstruktion von Beständen: ma_sek_ii/int/rek/index.md
       - Vektorrechnung:
         - 1. Punkte und Vektoren: ma_sek_ii/vek/basic/index.md
+        - 2. Skalar- und Vektorprodukt: ma_sek_ii/vek/svp/index.md
