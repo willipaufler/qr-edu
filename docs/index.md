@@ -13,7 +13,7 @@ hide:
     Ausführliche Tipps und Lösungen zum Scannen.
   </p>
   
-  <a href="https://eduki.com/de/..." class="neumorph-btn neumorph-btn-cta">
+  <a href="https://eduki.com/de/autor/4845995/qr-summe" class="neumorph-btn neumorph-btn-cta">
     📦 Zu den Materialpaketen auf Eduki
   </a>
 </div>
@@ -78,7 +78,7 @@ hide:
 
 
 <div style="text-align: center; margin: 3rem auto 2rem auto; max-width: 800px;">
-  <a href="https://eduki.com/de/..." class="neumorph-btn neumorph-btn-cta">
+  <a href="https://eduki.com/de/autor/4845995/qr-summe" class="neumorph-btn neumorph-btn-cta">
     📦 Zu den Materialpaketen auf Eduki
   </a>
 </div>
