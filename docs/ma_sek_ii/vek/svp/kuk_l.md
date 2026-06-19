@@ -21,8 +21,7 @@ $$
 
 **Interpretation:**
 
-* **Algebraisch:** Ein Vektor schließt mit sich selbst einen Winkel von $\alpha = 0^\circ$ ein. Da im Betrag des Kreuzprodukts der Faktor $\sin(\alpha)$ steckt und $\sin(0^\circ) = 0$ ist, besitzt der Ergebnisvektor die Länge $0$.
-* **Geometrisch:** Das Kreuzprodukt beschreibt den Flächeninhalt des Parallelogramms, das von zwei Vektoren aufgespannt wird. Ein Vektor und er selbst können kein Parallelogramm aufspannen (der Flächeninhalt ist $0$).
+Das Kreuzprodukt beschreibt den Flächeninhalt des Parallelogramms, das von zwei Vektoren aufgespannt wird. Ein Vektor und er selbst können kein Parallelogramm aufspannen (der Flächeninhalt ist $0$).
 
 ---
 

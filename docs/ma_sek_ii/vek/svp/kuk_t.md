@@ -4,7 +4,7 @@
 Erinnere dich an die geometrische Definition des Skalarprodukts: $\vec{a} \cdot \vec{b} = |\vec{a}| \cdot |\vec{b}| \cdot \cos(\alpha)$. Überlege, welche Werte der Kosinus für spitze, rechte und stumpfe Winkel annimmt.
 
 ### Zu Teilaufgabe b)
-Welchen Winkel schließt ein Vektor mit sich selbst ein? Überlege, was das für den Sinus in der geometrischen Definition des Kreuzprodukts bedeutet, oder betrachte die geometrische Interpretation als Flächeninhalt eines aufgespannten Parallelogramms.
+Welchen Winkel schließt ein Vektor mit sich selbst ein? Überlege, was das für die geometrische Interpretation als Flächeninhalt eines aufgespannten Parallelogramms bedeutet.
 
 ### Zu Teilaufgabe c)
 Versuche, dir die Situation im Raum vorzustellen: Wenn zwei Linien auf dem Boden liegen, stehen sie beide senkrecht auf einer senkrechten Wandsäule. Müssen die beiden Linien auf dem Boden deshalb auch senkrecht zueinander sein? Finde ein einfaches Gegenbeispiel mit den Standard-Basisvektoren (Koordinatenachsen).

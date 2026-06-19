@@ -12,11 +12,11 @@ $$
 $$
 Da $\vec{AB}$ kein Vielfaches von $\vec{AC}$ bzw. $\vec{BC}$ ist, liegen die Punkte nicht auf einer gemeinsamen Geraden und bilden somit ein Dreieck.
 
-Für den Nachweis der Rechtwinkligkeit prüfen wir das Skalarprodukt von $\vec{AB}$ und $\vec{BC}$:
+Für den Nachweis der Rechtwinkligkeit prüfen wir das Skalarprodukt von $\vec{BA}$ und $\vec{BC}$:
 $$
 \begin{aligned}
-\vec{AB} \cdot \vec{BC} &= \begin{pmatrix} -7 \\\\ -2 \\\\ 8 \end{pmatrix} \cdot \begin{pmatrix} 4 \\\\ -10 \\\\ 1 \end{pmatrix} \\\\
-&= (-7) \cdot 4 + (-2) \cdot (-10) + 8 \cdot 1 \\\\
+\vec{BA} \cdot \vec{BC} &= \begin{pmatrix} 7 \\\\ 2 \\\\ -8 \end{pmatrix} \cdot \begin{pmatrix} 4 \\\\ -10 \\\\ 1 \end{pmatrix} \\\\
+&= 7 \cdot 4 + 2 \cdot (-10) + (-8) \cdot 1 \\\\
 &= 0
 \end{aligned}
 $$
