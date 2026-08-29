@@ -69,7 +69,9 @@ $$
 Flächeninhalt $A$:
 $$
 \begin{aligned}
-A &= \frac{1}{2} \cdot \left| \begin{pmatrix} -9 \\ -9 \\ 9 \end{pmatrix} \right| = \frac{1}{2} \sqrt{(-9)^2 + (-9)^2 + 9^2} = \frac{1}{2} \sqrt{243} = \frac{9}{2}\sqrt{3} \approx 7{,}79\,\text{FE}
+A &= \frac{1}{2} \cdot \left| \begin{pmatrix} -9 \\\\ -9 \\\\ 9 \end{pmatrix} \right| \\\\
+&= \frac{1}{2} \sqrt{(-9)^2 + (-9)^2 + 9^2}\\\\
+& = \frac{9}{2}\sqrt{3} \approx 7{,}79\,\text{FE}
 \end{aligned}
 $$
 
