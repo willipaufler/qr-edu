@@ -14,7 +14,7 @@ Hier findest du alle Hilfestellungen und Lösungen zu deiner Stationsarbeit. Nut
 
 
 <div class="neumorph-card" markdown>
-**Diagonalen im Würfelç**  
+**Diagonalen im Würfel**  
 --- 
 [:material-lightbulb-outline: Tipp](diag_t.md){.neumorph-btn}  
 [:material-check-circle-outline: Lösung](diag_l.md){.neumorph-btn .neumorph-btn-primary}
