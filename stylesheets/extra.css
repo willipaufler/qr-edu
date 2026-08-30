@@ -1,0 +1,205 @@
+/* ==========================================================================
+   1. TYPOGRAFIE & MATH-FRAMEWORKS
+   ========================================================================== */
+
+@font-face {
+    font-family: 'Computer Modern';
+    src: url('../assets/fonts/cmunrm.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+:root {
+    --md-text-font: 'Computer Modern', serif;
+}
+
+/* Verhindert unschöne Zeilenumbrüche innerhalb von KaTeX-Formeln */
+.katex {
+    white-space: nowrap;
+}
+
+
+/* ==========================================================================
+   2. GLOBAL LAYOUT (GRID & TRENNER)
+   ========================================================================== */
+
+/* Das Karten-Grid für die Aufgabenübersicht */
+.grid.cards {
+    display: grid;
+    /* auto-fill sorgt für gleichmäßige Verteilung der Spalten */
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); 
+    /* Zentriert das gesamte Raster auf dem Bildschirm */
+    justify-content: center; 
+    gap: 2.5rem; /* Raum zwischen den Karten */
+    margin: 2rem auto;
+    width: 100%;
+}
+
+/* Eingesenkte Neumorphic Trennlinie für die Themenbereiche */
+.neumorph-trenner {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 3.5rem 0 2rem 0;
+    color: #666;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* Die 3D-Linien links und rechts vom Trenner-Text */
+.neumorph-trenner::before, 
+.neumorph-trenner::after {
+    content: '';
+    flex: 1;
+    height: 6px;
+    border-radius: 3px;
+    box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+    margin: 0 15px;
+}
+
+
+/* ==========================================================================
+   3. KOMPONENTEN: NEUMORPHIC CARDS
+   ========================================================================== */
+
+/* Subtile, zentrierte Aufgabenkarte */
+.neumorph-card {
+    background: var(--md-default-bg-color);
+    border-radius: 16px !important;
+    max-width: 320px; /* Hält die Karten kompakt */
+    width: 100%;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.15), 
+                -4px -4px 8px rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.05) !important; /* Hauchzarte Kante */
+    padding: 1.5rem; /* Großzügiger Platz wirkt bei Zentrierung besser */
+    transition: transform 0.2s ease;
+
+    /* Flexbox für saubere vertikale Zentrierung der Karteninhalte */
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    text-align: center;     
+    margin: 0 auto;
+}
+
+/* Mouse-Over Effekt für Karten */
+.neumorph-card:hover {
+    transform: none; /* Aktuell deaktiviert (Karten sinken nicht ein) */
+}
+
+
+/* ==========================================================================
+   4. KOMPONENTEN: BUTTONS (BASIS-STYLING)
+   ========================================================================== */
+
+/* Kompakte Standard-Buttons innerhalb der Karten (Tipp / Lösung) */
+.md-typeset .neumorph-btn {
+    background: var(--md-default-bg-color);
+    border-radius: 10px;
+    padding: 6px 14px; 
+    font-size: 0.75rem; /* Kleinere, smarte Schrift für Buttons */
+    display: inline-flex;
+    align-items: center;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.2), 
+                -2px -2px 5px rgba(255, 255, 255, 0.05);
+    border: none;
+    
+    /* Text- und Linkregeln */
+    color: var(--md-typeset-color) !important;
+    text-decoration: none !important;
+    transition: all 0.3s ease !important;
+
+    /* Perfekte Zentrierung und Größe innerhalb der Karte */
+    width: 100%;           
+    max-width: 180px;      
+    justify-content: center;
+    margin: 6px 0; /* Vertikaler Abstand zwischen den Buttons */
+}
+
+/* Globaler Hover-Effekt für alle Standard-Buttons (sinkt leicht ein) */
+.md-typeset .neumorph-btn:hover {
+    transform: translateY(2px) !important;
+    background: var(--md-default-bg-color) !important;
+}
+
+
+/* ==========================================================================
+   5. FARB-SCHEMATA (HELL- & DUNKELMODUS OVERRIDES)
+   ========================================================================== */
+
+/* --- LIGHT MODE (Standard-Theme: Blau-Akzente) --- */
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-primary,
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-cta {
+    color: #000000 !important; 
+    border: 1px solid rgba(30, 136, 229, 0.25) !important; /* Light-Mode Blau */
+}
+
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-primary:hover,
+[data-md-color-scheme="default"] .md-typeset .neumorph-btn-cta:hover {
+    color: #000000 !important; 
+    background: rgba(30, 136, 229, 0.05) !important; /* Hauchzarter blauer Schimmer innen */
+    border: 1px solid rgba(30, 136, 229, 0.5) !important;
+    box-shadow: 0px 0px 10px rgba(30, 136, 229, 0.15) !important;
+}
+
+/* --- DARK MODE (Slate-Theme: Eduki-Grün-Akzente) --- */
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-primary,
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-cta {
+    color: #ffffff !important; /* Edler Buchdruck-Look */
+    border: 1px solid rgba(76, 175, 80, 0.4) !important; /* Dezente grüne Kante */
+    background: rgba(76, 175, 80, 0.02) !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-primary:hover,
+[data-md-color-scheme="slate"] .md-typeset .neumorph-btn-cta:hover {
+    color: #ffffff !important; 
+    background: rgba(76, 175, 80, 0.05) !important; /* Schimmert beim Drüberfahren grünlich auf */
+    border: 1px solid rgba(76, 175, 80, 0.8) !important; 
+    box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.25),
+                4px 4px 12px rgba(0, 0, 0, 0.4) !important;
+}
+
+
+/* ==========================================================================
+   6. LANDING PAGE SPEZIFISCHE ELEMENTE
+   ========================================================================== */
+
+/* Großer, prominenter Call-to-Action Button */
+.md-typeset .neumorph-btn-cta {
+    max-width: 280px !important;
+    padding: 12px 24px !important;
+    font-size: 1rem !important;
+    font-weight: 600;
+    color: #4caf50 !important; /* Eduki- / Lösungs-Grün */
+    border: 1px solid rgba(76, 175, 80, 0.3) !important;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3), 
+                -3px -3px 8px rgba(255, 255, 255, 0.05),
+                inset 0 0 10px rgba(76, 175, 80, 0.05);
+    margin: 0 auto;
+    transition: all 0.3s ease;
+}
+
+/* Hover-Effekt für den CTA-Button (schwebt nach oben statt einzusinken) */
+.md-typeset .neumorph-btn-cta:hover {
+    transform: translateY(-2px) !important; 
+    border: 1px solid rgba(76, 175, 80, 0.6) !important;
+    box-shadow: 0px 0px 15px rgba(76, 175, 80, 0.2),
+                4px 4px 12px rgba(0, 0, 0, 0.4);
+    color: #fff !important;
+}
+
+/* Responsiver Haupt-Titel auf der Landingpage */
+.hero-title {
+    /* Fluid Typography: Passt sich stufenlos der Displaygröße an */
+    font-size: clamp(1.5rem, 6.5vw, 2.8rem) !important;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: var(--md-typeset-color) !important;
+    
+    /* Verhindert unschönes Abschneiden mitten im Wort */
+    word-break: normal !important;
+    overflow-wrap: normal !important;
+    hyphens: none !important;
+}
