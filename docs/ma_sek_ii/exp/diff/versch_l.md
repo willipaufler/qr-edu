@@ -1,6 +1,6 @@
 # Verschobene Welt (ohne CAS) - Lösung
 
-Gegeben sind die Funktion $f(x) = e^{2x}$ und ihre Ableitung $f'(x) = 2e^{2x}$[cite: 7].
+Gegeben sind die Funktion $f(x) = e^{2x}$ und ihre Ableitung $f'(x) = 2e^{2x}$.
 
 ---
 
